@@ -14,10 +14,10 @@ Download / clone this repo, add it to your path with `addpath('<path_to_this_rep
 
 ```octave
 linecolor = xkcd_rgb('butterscotch')
-plt.plot(x, y, 'color', linecolor)
+plot(x, y, 'color', linecolor)
 
 % or 
-plt.plot(x, y, 'color', xkcd_rgb('butterscotch'))
+plot(x, y, 'color', xkcd_rgb('butterscotch'))
 
 % or
 h = plot(x, y);
